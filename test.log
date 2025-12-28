@@ -1,0 +1,32 @@
+2025-01-10 08:12:45 INFO  AuthService - User login attempt
+email=john.doe@example.com
+password=Password123!
+
+2025-01-10 08:12:46 WARN  AuthService - Failed login
+email=admin@example.org
+password=admin@123
+
+2025-01-10 08:15:02 INFO  AWSClient - Initializing AWS SDK
+AWS_ACCESS_KEY_ID=AKIAEXAMPLE1234567890
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENGbPxRfiCYEXAMPLEKEY
+AWS_REGION=us-east-1
+
+2025-01-10 08:16:30 DEBUG DBConnection - Connecting to database
+db_user=dbadmin
+db_password=SuperSecretDBPass!
+
+2025-01-10 08:18:01 INFO  PaymentService - Processing payment
+credit_card=4111-1111-1111-1111
+cvv=123
+expiration=12/26
+
+2025-01-10 08:20:44 INFO  OAuth - Token generated
+access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.EXAMPLE.PAYLOAD
+refresh_token=r1_example_refresh_token_987654321
+
+2025-01-10 08:22:11 INFO  SMTP - Sending email
+smtp_user=mailer@example.com
+smtp_password=MailPass!2025
+
+2025-01-10 08:25:55 INFO  API - External service call
+api_key=sk_test_EXAMPLE_abcdef123456
