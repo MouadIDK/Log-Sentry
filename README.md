@@ -52,7 +52,7 @@ Calcul de la "complexité" (aléatoire) des chaînes de caractères restantes.
 ### Installation
 1.  **Cloner le dépôt**
     ```bash
-    git clone [https://github.com/VOTRE_USERNAME/Log-Sentry.git](https://github.com/VOTRE_USERNAME/Log-Sentry.git)
+    git clone git@github.com:MouadIDK/Log-Sentry.git
     cd Log-Sentry
     ```
 
